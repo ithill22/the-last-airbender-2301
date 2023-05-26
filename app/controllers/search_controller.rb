@@ -1,5 +1,6 @@
 class SearchController < ApplicationController
   def index
-    @nation = AvatarFacade.new(params[:nation])
+    @nation = params[:nation]
+    @characters = AvatarFacade.new.get_characters(@nation)
   end
 end
