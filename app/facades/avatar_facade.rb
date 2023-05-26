@@ -1,15 +1,13 @@
 class AvatarFacade
-  def self.get_members(nation)
-    service.get_characters(nation)
-  end
-
-  def self.get_total_members(nation)
-    service.get_characters(nation).count
+  def get_members(nation)
+    json = service.get_characters(nation)
+    json.map do |character_data|
+      Character.new(character_data)
+    end
   end
 
   private
-
-  def self.service
+  def service
     @_service ||= AvatarService.new
   end
 end

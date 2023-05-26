@@ -27,7 +27,7 @@ http_interactions:
       Etag:
       - W/"14d5-WTRRSJNnTC1GW+LUuYG/NeY4TjY"
       Date:
-      - Fri, 26 May 2023 20:27:42 GMT
+      - Fri, 26 May 2023 20:54:53 GMT
       Connection:
       - keep-alive
       Keep-Alive:
@@ -39,7 +39,7 @@ http_interactions:
       Via:
       - 1.1 fly.io
       Fly-Request-Id:
-      - 01H1CVXRTXY6P1HNAHABKJDDC4-dfw
+      - 01H1CXFHQX1XNNPCY7TZZ6NXR7-dfw
     body:
       encoding: ASCII-8BIT
       string: '[{"_id":"5cf5679a915ecad153ab68fd","allies":["Ozai"],"enemies":["Earth
@@ -75,5 +75,5 @@ http_interactions:
         Navy officer","affiliation":"Fire Nation Navy"},{"_id":"5cf5679a915ecad153ab6925","allies":["Fire
         Nation bar patron"],"enemies":["Katara"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/40/Fire_Nation_bar_patron%27s_friend.png/revision/latest?cb=20130308170725","name":"Fire
         Nation bar patron''s friend","affiliation":"Fire Nation"}]'
-  recorded_at: Fri, 26 May 2023 20:27:42 GMT
+  recorded_at: Fri, 26 May 2023 20:54:53 GMT
 recorded_with: VCR 6.1.0
